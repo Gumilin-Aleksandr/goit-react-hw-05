@@ -1,0 +1,39 @@
+.container {
+  margin: 0 auto;
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+  width: 200px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+  padding: 10px 20px;
+  height: 50px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 3%,
+    rgba(255, 255, 255, 1) 99%
+  );
+}
+.getLinkClass {
+  font-size: 26px;
+  font-weight: 800;
+}
+.link {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 10px;
+}
+.active {
+  color: rgb(250, 128, 83);
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    justify-content: center;
+  }
+}
